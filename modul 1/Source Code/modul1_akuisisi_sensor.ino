@@ -1,5 +1,5 @@
 #include <DHT.h>
-#define DHTPIN 4 // pin data DHT22 terhubung ke GPIO 4
+#define DHTPIN 4 // pin data DHT11 terhubung ke GPIO 4
 #define DHTTYPE DHT11 // tipe sensor yang digunakan
 
 DHT dht(DHTPIN, DHTTYPE);
@@ -15,7 +15,7 @@ void loop() {
   float suhu = dht.readTemperature();
   // Periksa apakah pembacaan berhasil
   if (isnan(kelembaban) || isnan(suhu)) {
-  Serial.println("Gagal membaca data dari sensor DHT22!");
+  Serial.println("Gagal membaca data dari sensor DHT11!");
   } else {
   Serial.print("Suhu: ");
   Serial.print(suhu);
