@@ -1,7 +1,7 @@
-## Rangkaian Percobaan 1
+## Rangkaian Percobaan 1A
 <img width="643" height="588" alt="Screenshot 2026-09-02 183517" src="https://github.com/user-attachments/assets/941d7575-f472-4f49-90f0-3468dd189e42" />
 
-## Rangkaian Percobaan 2
+## Rangkaian Percobaan 1B
 <img width="1600" height="1200" alt="WhatsApp Image 2026-09-02 at 12 01 41" src="https://github.com/user-attachments/assets/823480c9-0081-41cc-9ab6-0b9182402886" />
 
 ## Tampilan Serial Monitor percobaan 1 saat diarahkan ke AC
