@@ -1,6 +1,6 @@
 
 Readme · MD
-# Modifikasi Percobaan 1
+# Modifikasi Percobaan 1A
  
 Program ini membaca data suhu dan kelembaban dari sensor **DHT11** menggunakan mikrokontroler (ESP32/Arduino-compatible), melakukan **5 kali pembacaan berturut-turut**, lalu menghitung **rata-rata** dari data yang valid sebelum ditampilkan ke Serial Monitor.
  
@@ -101,7 +101,7 @@ void loop() {
 ```
  
 ---
-# Modifikasi Percobaan 2
+# Modifikasi Percobaan 1B
  
 Program ini membaca suhu dari sensor **DHT11** dan mengendalikan sebuah **aktuator (relay)** menggunakan logika **histerisis dua ambang batas**: aktuator **menyala** saat suhu di atas **30°C**, dan baru **mati** saat suhu turun di bawah **28°C**. Di antara kedua ambang batas tersebut (28°C–30°C), kondisi aktuator dipertahankan seperti sebelumnya.
  
